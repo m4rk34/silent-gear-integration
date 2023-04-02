@@ -1,0 +1,69 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/ostrum"
+    }
+  },
+  "name": {
+    "text": "Ostrum"
+  },
+  "stats": {
+    "main": {
+      "durability": 1440.0,
+      "armor_durability": 21.0,
+      "enchantability": 8.0,
+      "rarity": 35.0,
+      "chargeability": 1.0,
+      "harvest_level": 3.0,
+      "harvest_speed": 12.0,
+      "melee_damage": 5.0,
+      "magic_damage": 6.0,
+      "attack_speed": 0.0,
+      "ranged_damage": 6.0,
+      "ranged_speed": -0.1,
+      "armor": 18.0,
+      "armor_toughness": 0.3,
+      "magic_armor": 6.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:ancient",
+        "level": 1
+      },
+      {
+        "name": "silentgear:fiery",
+        "level": 2
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#a46d76"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#a46d76"
+      }
+    ]
+  }
+}
